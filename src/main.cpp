@@ -36,6 +36,12 @@ int main() {
                 orbiters.pop_back();
             }
         }
+        // Removes all orbiters when START is pressed if there's at least one
+        if (bn::keypad::start_pressed()) {
+            if(orbiters.size() > 0) {
+                orbiters.clear();
+            }
+        }
 
         center.update();
         for(Orbiter& orbiter : orbiters) {

@@ -5,8 +5,6 @@
 #include <bn_fixed_point.h>
 #include <bn_vector.h>
 
-#include "bn_sprite_items_square.h"
-
 #include "movement.h"
 #include "Center.h"
 #include "Orbiter.h"
